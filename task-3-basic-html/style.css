@@ -1,0 +1,75 @@
+body{
+   border: 1px solid black;
+}
+
+
+
+.head{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+   
+    
+}
+
+.subhead{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 200px;
+    margin-top: 100px;
+    background-color: rgba(0, 255, 255, 0.377);
+    padding: 5px;
+    width:300px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+   
+}
+.photo{
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.photo{
+    border: 8px solid rgb(0, 96, 128);
+}
+.body-wise{
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color:rgba(0, 255, 255, 0.377) ;
+    width: 982px;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+   
+
+}
+.skills{
+    display: flex;
+    align-items: center;
+   
+   
+    
+}
+.obj{
+    margin-left: 30px;
+}
+.language{
+    margin-left: 120px;
+}
+.Experience{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.dev{
+    margin-left: 80px;
+}
+
