@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+    
+}
+.social-media{
+    padding: 20px;
+}
+
+
+
+.complt-resume{
+    display:flex;
+    border: 2px solid blue;
+    width: 100vw;
+    
+    
+    
+
+}
+a{
+    color:aliceblue;
+    
+}
+
+/* .exp{
+    display: flex;
+    flex-direction: column;
+}
+.internship{
+    display: flex;
+    flex-direction: column;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+} */
+
+.left-side{
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+}
+.right-side{
+    padding:60px;
+}
+.exp{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+   
+}
+.internship{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 20px;
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+}
+.skills{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+
+}
+.right-side{
+    display:flex;
+    flex-direction: column;
+    /* gap:10px; */
+    color:#FFFFFF;
+   
+}
+.education{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 20px;
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+
+}
+.profile,.intern-class,.project-icon,.skillsets{
+    color:#175A8E
+}
+.Frontend,.year{
+    color:blue;
+}
+.internshipsummary{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.flex-flex{
+    display: flex;
+    gap:350px;
+}
+.HTML, .css, .js{
+    display:flex;
+    gap:30px;
+}
+.prog{
+    margin-top: 7px;
+    height: 10px;
+    width:300px;
+    border-radius: 3px solid black;
+    background-color: blue;
+
+
+}
+.prog1{
+    margin-top: 10px;
+    margin-left:18px;
+    height: 10px;
+    width:300px;
+    border-radius: 3px solid black;
+    background-color: blue;
+
+}
+.further-prog{
+    margin-top: 6px;
+  
+    height: 10px;
+    width:300px;
+    border-radius: 3px solid black;
+    background-color:green;
+
+}
+
+.new-prog{
+    height:10px;
+    width:190px;
+    background-color: blue;
+    
+}
+.bar{
+    display:flex;
+    margin-right: 10px;
+}
+img{
+    border-radius: 100px;
+    margin-left: 50px;
+    padding:10px;
+
+}
+.name{
+    background-color:#48359A;
+}
+.social-media,.education,.lang{
+    background-color: #5A42C0;
+    
+}
+.subname, .dev{
+    margin-left: 30px;
+}
+
+
+
+
+
+
