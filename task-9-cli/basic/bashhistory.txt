@@ -1,0 +1,171 @@
+    1  git --version
+    2  git status
+    3  git init
+    4  git add -A
+    5  git commit -m "first commit"
+    6  git branch -M main
+    7  git remote add origin https://github.com/Nikita-Kumari067/Coffee-Shop.git
+    8  git push -u origin main
+    9  git init
+   10  git add -A
+   11  git commit -m "first commit"
+   12  git branch -M main
+   13  git remote add origin https://github.com/Nikita-Kumari067/Coffee-Shop.git
+   14  git push -u origin main
+   15  git config --global user.name "Nikita-Appfoster"
+   16  clear
+   17  git config --global user.email "nikita.kumari@appfoster.com
+   18  "
+   19  clear
+   20  git config user.name
+   21  git config --list
+   22  ssh -T Nikit-Appfoster@github.com
+   23  ssh -T Nikita-Appfoster@github.com
+   24  clear
+   25  git config --list
+   26  git config --list
+   27  git config --list
+   28  git config --global user.name "Nikita-Appfoster"
+   29  git config --global user.email "nikita.kumari@appfoster.com"
+   30  ssh-keygen -t rsa -b 4096 -C "nikita.kumari@appfoster.com" 
+   31  eval "$(ssh-agent -s)"
+   32  /c/Users/91706/.ssh/id_rsa.pub
+   33  ssh-add /c/Users/91706/.ssh/id_rsa.pub
+   34  ssh-add ~/c/Users/91706/.ssh/id_rsa.pub
+   35  ssh-add /c/Users/91706/.ssh/id_rsa.pub
+   36  git config --global user.name "Nikita-Appfoster"
+   37  git config --global user.email "nikita.kumari@appfoster.com
+   38  "
+   39  mkdir
+   40  mkdir --help
+   41  mkdir file4
+   42  ls
+   43  pwd
+   44  mkdir 
+   45  pwd
+   46  mkdir
+   47  mkdir cli
+   48  pwd
+   49  ls
+   50  touch index.html
+   51  ls
+   52  pwd
+   53  ls
+   54  touch index.html
+   55  ls
+   56  ls style.css index2.html
+   57  touch style.css index2.html
+   58  ls
+   59  rm index2.html
+   60  ls
+   61  mkdir dir1
+   62  pwd
+   63  rm dir1
+   64  rm -r dir1
+   65  ls
+   66  mkdir source
+   67  ls
+   68  cp index.html source/index.html
+   69  ls
+   70  ls source
+   71  rm index.html
+   72  ls 
+   73  ls source
+   74  touch index2.html new.txt
+   75  ls
+   76  ls source
+   77  mv new.txt source/new.txt
+   78  ls
+   79  ls source
+   80  mv source src
+   81  ls
+   82  mv src/index2.html info.html
+   83  ls src
+   84  mv src/index.html info.html
+   85  ls
+   86  open index2.html
+   87  start index2.html
+   88  code src/index.html
+   89  ls
+   90  mkdir Files
+   91  ls 
+   92  ls Files
+   93  touch Files/index.html
+   94  ls Files 
+   95  ls Files/style.css
+   96  touch Files/style.css
+   97  ls Files
+   98  touch Files/new.js
+   99  ls Files
+  100  rm Files/new.js
+  101  ls Files
+  102  cp index.html
+  103  ls index2.html
+  104  touch index2.html
+  105  ls 
+  106  cp index2.html Files/index.html
+  107  ls Files
+  108  ls
+  109  rm index2.html
+  110  ls Files
+  111  cp index2.html Files/
+  112  touch index2.html
+  113  cp index2.html Files/
+  114  ls Files
+  115  mv index.html Files/
+  116  mv index2.html Files/
+  117  ls Files
+  118  curl https://developer.mozilla.org
+  119  curl https://example.com
+  120  curl -o "example.html"https://example.com
+  121  curl -o "example.html" https://example.com
+  122  ls
+  123  cat>example.html
+  124  cat example.html
+  125  cat example.html
+  126  curl -o "google" https://google.com
+  127  cat google
+  128  pwd
+  129  mkdir basic
+  130  cd basic
+  131  ls
+  132  touch first.html
+  133  ls
+  134  touch style.css new.js first.txt
+  135  ls
+  136  rm first.html
+  137  ls
+  138  cp first.txt new.js
+  139  ls
+  140  touch second.txt
+  141  mv first.txt second.txt
+  142  curl https://google.com
+  143  curl -o "google" https://google.com
+  144  cat google
+  145  ls
+  146  curl -I https://google.com
+  147  curl -L google.com
+  148  ls
+  149  ls google
+  150  cat google
+  151  touch file-{001..100}.txt
+  152  ls
+  153  grep "file-"
+  154  echo "I am Nikita"
+  155  ls
+  156  echo "Hello World">file_001.txt
+  157  echo "hello" file-001.txt
+  158  cat file-001.txt
+  159  echo "hello" > file-001.txt
+  160  cat file-001.txt
+  161  grep "hello" file-001.txt
+  162  ls index.html
+  163  touch index.html
+  164  ls
+  165  code index.html
+  166  sed -i "s/<div>/<article>/g" index.html
+  167  cat index.html
+  168  sed -i 's/<div/<article/g; s/<\/div>/<\/article>/g' index.html
+  169  cat index.html
+  170  history
+  171  history > bashhistory.txt
