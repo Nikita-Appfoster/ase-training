@@ -18,9 +18,9 @@ body{
     align-items:flex-start;
     margin-left: 200px;
     margin-top: 100px;
-    background-color: rgba(0, 255, 255, 0.377);
+    background-color: rgba(212, 206, 206);
     padding: 5px;
-    width:300px;
+    width:500px;
 }
 .address{
     display: flex;
@@ -29,10 +29,10 @@ body{
 }
 .photo{
     margin-top: 100px;
-    margin-right: 200px;
+    margin-right: 310px;
 }
 .photo{
-    border: 8px solid rgb(0, 96, 128);
+    border: 8px solid green;
 }
 .body-wise{
     margin-left: 200px;
@@ -40,7 +40,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color:rgba(0, 255, 255, 0.377) ;
+    background-color:rgba(212, 206, 206); ;
     width: 982px;
 
 }
@@ -72,4 +72,21 @@ body{
 .dev{
     margin-left: 80px;
 }
+
+
+.education{
+    display:flex;
+    flex-direction: column;
+    margin-left: 200px;
+    gap:4px;
+    
+}
+.Education{
+    font-weight: bold;
+}
+.table{
+    width:982px;
+    
+}
+
 
