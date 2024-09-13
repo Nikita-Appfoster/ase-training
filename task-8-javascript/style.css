@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgba(212, 206, 206);
+}
+.label-1 {
+  padding: 7px;
+}
+.label-2 {
+  padding: 7px;
+}
+.input-1 {
+  padding: 7px;
+}
+.input-2 {
+  padding: 7px;
+}
+.num-1 {
+  background-color: white;
+  border-bottom: 2px solid rgba(212, 206, 206);
+  border-radius: 8px 8px;
+}
+.splitting {
+  background-color: white;
+  border-bottom: 2px solid rgba(212, 206, 206);
+  border-radius: 8px 8px;
+}
+.butt {
+  background-color: white;
+  padding: 7px;
+  border-radius: 8px 8px;
+}
+.button {
+  width: 70px;
+  background-color: blue;
+  padding: 2px;
+}
+
+
+.container-2{
+  display:flex;
+  justify-content: center;
+  padding:50px;
+ 
+  
+
+
+
+}
+.container-2 div{
+  text-align: center;
+  height: 200px;
+  padding:30px;
+}
+
+
+
+
+
