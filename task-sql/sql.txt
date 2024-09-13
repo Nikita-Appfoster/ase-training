@@ -1,0 +1,43 @@
+--INSERT INTO Customers
+--(customer_id, first_name, last_name, age, country)
+--VALUES
+--("7", "Taylor", "Swift", "32", "USA");
+
+
+--INSERT INTO Customers
+--(customer_id, first_name, last_name, age, country)
+--VALUES
+--("8", "Kylie" , "Jenner", "27", "America"),
+--("9", "Kim", "Kardashian", "43", "America");
+
+
+--SELECT COUNT(customer_id), country
+--FROM Customers
+--GROUP BY country
+
+
+--SELECT * FROM Orders
+--WHERE amount BETWEEN 100 AND 500
+
+
+--SELECT c.first_name, c.last_name
+--FROM Customers  AS c
+--INNER JOIN Orders AS O
+--ON c.customer_id=o.customer_id
+--WHERE O.item="keypad";
+
+
+--NOT Possible because there is no column that is common in between customers table and shippings table
+
+
+SELECT c.customer_id,COUNT(o.order_id) AS no_of_ord
+FROM Customers AS c
+INNER JOIN Orders AS o
+ON c.customer_id = o.customer_id
+GROUP BY c.customer_id
+
+
+
+
+
+
