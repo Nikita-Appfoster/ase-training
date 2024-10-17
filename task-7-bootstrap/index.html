@@ -1,353 +1,250 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
-    <title>Bootstrap</title>
-    <style>
-      .project-form {
-        width: 400px;
-        border-radius: 20px;
-      }
-      .new-form {
-        margin-right: 50%;
-      }
-      .vertical-navbar {
-        width: 80px;
-        height: 100vh;
-        position: fixed;
-        left: 0;
-        background-color: #f8f9fa;
-      }
-      .container {
-        margin-left: 100px;
-      }
-      .card {
-        background-color: #fff;
-      }
-      .vertical-right {
-        right: 0;
-        width: 80px;
-        height: 100vh;
-        background-color: #f8f9fa;
-        position: fixed;
-      }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    
+    <nav class="navbar navbar-expand-lg navbar-expand-s bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><b class="bi bi-list"></b></a>
-        <div
-          class="collapse navbar-collapse d-flex justify-content-between"
-          id="navbarSupportedContent"
-        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-               style="font-weight: bold;" >Portfolio</a
-              >
+              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
             </li>
           </ul>
-          <!-- <nav class="navbar bg-body-tertiary new-form">
-            <div class="container-fluid d-flex justify-content-end ">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            </form>
-                <li class="nav-item text-nowrap d-flex ">
-                    <a class="nav-link" href="#"><i class="bi bi-moon p-2"></i></a>
-                    <a class="nav-link" href="#"
-                      ><b class="bi bi-plus-circle p-2"></b
-                    ></a>
-                    <a class="nav-link" href="#"><b class="bi bi-bell p-2"></b></a>
-                    <div class="dash">|</div>
-                    <a class="nav-link" href="#"
-                      ><b class="bi bi-person-circle p-2"></b
-                    ></a>
-                  </li>
-               
-             
-            </div>
-          </nav> -->
-
-          <!-- <form class="d-flex new-form" role="search">
-            <input
-              class="form-control me-2 project-form"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-              />
-             
-            </form>
-          
+          <form class="d-flex me-auto" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
            
-            <li class="nav-item text-nowrap d-flex">
-              <a class="nav-link" href="#"><i class="bi bi-moon p-2"></i></a>
-              <a class="nav-link" href="#"
-                ><b class="bi bi-plus-circle p-2"></b
-              ></a>
-              <a class="nav-link" href="#"><b class="bi bi-bell p-2"></b></a>
-              <div class="dash">|</div>
-              <a class="nav-link" href="#"
-                ><b class="bi bi-person-circle p-2"></b
-              ></a>
-            </li> -->
+          </form>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+           
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b class="bi bi-moon"></b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b class="bi bi-plus-circle"></b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><b class="bi bi-bell"></b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">|</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#"> <bi class="bi bi-person-circle"></bi></a>
+            </li>
+              
+          </ul>
 
-          <div class="container-fluid">
-            <div class="row">
-              <div
-                class="col-12 col-md-7 d-flex justify-content-md-start justify-content-center"
-              >
-                <form class="d-flex new-form" role="search">
-                  <input
-                    class="form-control me-2 project-form"
-                    type="search"
-                    placeholder="Search"
-                    aria-label="Search"
-                  />
-                </form>
-              </div>
-
-              <div
-                class="col-12 col-md-5 d-flex justify-content-md-end justify-content-center align-items-center mt-2 mt-md-0"
-              >
-                <li class="nav-item text-nowrap d-flex">
-                  <a class="nav-link" href="#"
-                    ><i class="bi bi-moon p-2"></i
-                  ></a>
-                  <a class="nav-link" href="#"
-                    ><b class="bi bi-plus-circle p-2"></b
-                  ></a>
-                  <a class="nav-link" href="#"
-                    ><b class="bi bi-bell p-2"></b
-                  ></a>
-                  <div class="dash">|</div>
-                  <a class="nav-link" href="#"
-                    ><b class="bi bi-person-circle p-2"></b
-                  ></a>
-                </li>
-              </div>
-            </div>
-          </div>
+        </div>
+        
+         
         </div>
       </div>
     </nav>
 
-    <nav
-      class="navbar vertical-navbar d-flex flex-column align-items-center mt-0"
-    >
-      <ul class="navbar-nav d-flex flex-column">
-        <li class="nav-item mb-3">
-          <a class="nav-link active" aria-current="page" href="#">
-            <b class="bi bi-house-door"></b>
-          </a>
-        </li>
-        <li class="nav-item mb-3">
-          <a class="nav-link" href="#">
-            <b class="bi bi-clock"></b>
-          </a>
-        </li>
-        <li class="nav-item mb-3">
-          <a class="nav-link" href="#">
-            <b class="bi bi-calendar"></b>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <b class="bi bi-gear"></b>
-          </a>
-        </li>
-      </ul>
-    </nav>
+ 
 
-    <nav
-      class="navbar vertical-right d-flex flex-column-reverse align-items-center mt-0"
-    ></nav>
+    
 
-    <div class="container">
-      <div class="row d-flex">
-        <div class="col box-1" style="font-weight: bold">Projects</div>
-        <div class="col box-2 text-end" style="font-weight: bold">
-          December, 12
-        </div>
+<div class="d-flex h-100">
+  <nav class="nav flex-column h-100 bg-body-tertiary">
+    <a class="nav-link disabled" href="#"> <b class="bi bi-house-door"></b></a>
+    <a class="nav-link disabled" href="#"><b class="bi bi-clock"></b></a>
+    <a class="nav-link disabled" href="#"><b class="bi bi-calendar"></b></a>
+    <a class="nav-link disabled" href="#"><b class="bi bi-gear"></b></a>
+  </nav>
+
+
+
+  <div class="container">
+    <div class="container d-flex">
+    <div class="Projects me-auto">
+Projects
+    </div>
+    <div class="Date ms-auto">
+      December,12
+    </div>
+  </div>
+<div class="container d-flex mt-2">
+  <div class="number d-flex flex-column">
+    <div class="num1">
+    45
+    </div>
+    <div class="num2">
+      In Progress 0
+    </div>
+  </div>
+
+    <div class="value d-flex flex-column">
+      <div class="val1">
+      24
+      </div>
+      <div class="val2 ms-2">
+        Upcoming 0
       </div>
     </div>
 
-    <!-- <div class="container mt-3">
+    <div class="value d-flex flex-column">
+      <div class="val3">
+      62
+      </div>
+      <div class="val4 ms-2">
+        Total Projects 0
+      </div>
+    </div>
+  </div>
+    
+<div class="container mt-2">
       <div class="row">
-        <div class="col box-1">
-          <span class="me-5" style="font-weight: bold">45</span>
-          <span class="me-5" style="font-weight: bold">24</span>
-          <span class="me-5" style="font-weight: bold">62</span>
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card" style="background-color: #fee4cb;">
+            <div class="card-body">
+              <div class="cont d-flex justify-content-between">
+                <div class="card-title">December 10, 2020</div>
+                <div class="icon"><b class="bi bi-three-dots-vertical"></b></div>
+              </div>
+              <div class="item d-flex flex-column align-items-center">
+                <div class="card-text">Web Designing</div>
+                <div class="card-text">Prototyping</div>
+              </div> 
+            </div>
+            <div class="card-footer">
+              <div class="badge rounded-pill" style="color: #fd7e14; background-color: white">2 Days Left</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card" style="background-color: #e9e7fd;">
+            <div class="card-body">
+              <div class="cont d-flex justify-content-between">
+                <div class="card-title">December 10, 2020</div>
+                <div class="icon"><b class="bi bi-three-dots-vertical"></b></div>
+              </div>
+              <div class="item d-flex flex-column align-items-center">
+                <div class="card-text">Testing</div>
+                <div class="card-text">Prototyping</div>
+              </div> 
+            </div>
+            <div class="card-footer">
+              <div class="badge text-primary bg-light rounded-pill">2 Days Left</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card" style="background-color: #dbf6fd;">
+            <div class="card-body">
+              <div class="cont d-flex justify-content-between">
+                <div class="card-title">December 10, 2020</div>
+                <div class="icon"><b class="bi bi-three-dots-vertical"></b></div>
+              </div>
+              <div class="item d-flex flex-column align-items-center">
+                <div class="card-text">SVG Animation</div>
+                <div class="card-text">Prototyping</div>
+              </div> 
+            </div>
+            <div class="card-footer">
+              <div class="badge text-info-emphasis bg-light rounded-pill">2 Days Left</div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
       <div class="row">
-        <div class="col box-1">
-          <span class="me-3" style="font-weight: 200">In progress 0</span>
-          <span class="me-3" style="font-weight: 200">Upcoming 0</span>
-          <span class="me-3" style="font-weight: 200">Total Projects</span>
-        </div>
-      </div>
-    </div> -->
-
-    <div class="container d-flex mt-3">
-      <div class="row d-flex">
-        <div class="col box-1" style="font-weight: bold;">
-          45
-          <div class="row row-gap-3">
-            <div class="col">In progress 0</div>
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card" style="background-color: #ffd3e2;">
+            <div class="card-body">
+              <div class="cont d-flex justify-content-between">
+                <div class="card-title">December 10, 2020</div>
+                <div class="icon"><b class="bi bi-three-dots-vertical"></b></div>
+              </div>
+              <div class="item d-flex flex-column align-items-center">
+                <div class="card-text">UI Development</div>
+                <div class="card-text">Prototyping</div>
+              </div> 
+            </div>
+            <div class="card-footer">
+              <div class="badge rounded" style="color: #d63384; background-color: white">2 Days Left</div>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col box-2" style="font-weight: bold;">
-          62
-          <div class="row row-gap-3" >
-            <div class="col">Upcoming 0</div>
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card" style="background-color: #c8f7dc;">
+            <div class="card-body">
+              <div class="cont d-flex justify-content-between">
+                <div class="card-title">December 10, 2020</div>
+                <div class="icon"><b class="bi bi-three-dots-vertical"></b></div>
+              </div>
+              <div class="item d-flex flex-column align-items-center">
+                <div class="card-text">Data Analysis</div>
+                <div class="card-text">Prototyping</div>
+              </div> 
+            </div>
+            <div class="card-footer">
+              <div class="badge text-success bg-light rounded-pill">2 Days Left</div>
+            </div>
           </div>
         </div>
-      </div>
 
-
-      <div class="row"></div>
-        <div class="col box-3" style="font-weight: bold;">
-          45
-          <div class="row">
-            <div class="col ">Total Projects</div>
+        <div class="col-12 col-md-4 mb-3">
+          <div class="card" style="background-color: #d5deff;">
+            <div class="card-body">
+              <div class="cont d-flex justify-content-between">
+                <div class="card-title">December 10, 2020</div>
+                <div class="icon"><b class="bi bi-three-dots-vertical"></b></div>
+              </div>
+              <div class="item d-flex flex-column align-items-center">
+                <div class="card-text">Web Designing</div>
+                <div class="card-text">Prototyping</div>
+              </div> 
+            </div>
+            <div class="card-footer">
+              <div class="badge text-primary bg-light rounded-pill">2 Days Left</div>
+            </div>
           </div>
         </div>
+
       </div>
 
     </div>
+  
+  </div>
 
-    <div class="container d-flex flex-wrap">
-      <div class="col-md-4 mb-4 p-2">
-        <div class="card shadow-sm rounded-4" style="background-color: #fee4cb">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <span class="icon fs-7">December 10, 2020</span>
-              <i class="bi bi-three-dots-vertical"></i>
-            </div>
-            <h5 class="card-title text-center">Web Designing</h5>
-            <p class="card-text text-center">Prototyping</p>
-          </div>
-          <div class="card-footer text-muted">
-            <span
-              class="badge rounded-pill"
-              style="color: #fd7e14; background-color: white"
-              >2 Days Left</span
-            >
-          </div>
-        </div>
-      </div>
+ 
+      
+  
 
-      <div class="col-md-4 mb-4 p-2">
-        <div class="card shadow-sm rounded-4" style="background-color: #e9e7fd">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <span class="icon">December 10, 2020</span>
-              <i class="bi bi-three-dots-vertical"></i>
-            </div>
-            <h5 class="card-title text-center">Testing</h5>
-            <p class="card-text text-center">Prototyping</p>
-          </div>
-          <div class="card-footer text-muted">
-            <span class="badge text-primary bg-light rounded-pill"
-              >2 Days Left</span
-            >
-          </div>
-        </div>
-      </div>
+  <nav class="nav flex-column h-100 bg-body-tertiary ms-auto">
+  
+  </nav>
 
-      <div class="col-md-4 mb-4 p-2">
-        <div class="card shadow-sm rounded-4" style="background-color: #dbf6fd">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <span class="icon">December 10, 2020</span>
-              <b class="bi bi-three-dots-vertical"></b>
-            </div>
-            <h5 class="card-title text-center">Svg Animations</h5>
-            <p class="card-text text-center">Prototyping</p>
-          </div>
-          <div class="card-footer text-muted">
-            <span class="badge text-info-emphasis bg-light rounded-pill"
-              >2 Days Left</span
-            >
-          </div>
-        </div>
-      </div>
 
-      <div class="col-md-4 mb-4 p-2">
-        <div class="card shadow-sm rounded-4" style="background-color: #ffd3e2">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <span class="icon">December 10, 2020</span>
-              <b class="bi bi-three-dots-vertical"></b>
-            </div>
-            <h5 class="card-title text-center">UI Development</h5>
-            <p class="card-text text-center">Prototyping</p>
-          </div>
-          <div class="card-footer text-muted">
-            <span
-              class="badge rounded-pill"
-              style="color: #d63384; background-color: white"
-              >2 Days Left</span
-            >
-          </div>
-        </div>
-      </div>
+</div>
 
-      <div class="col-md-4 mb-4 p-2">
-        <div class="card shadow-sm rounded-4" style="background-color: #c8f7dc">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <span class="icon">December 10, 2020</span>
-              <b class="bi bi-three-dots-vertical"></b>
-            </div>
-            <h5 class="card-title text-center">Data Analysis</h5>
-            <p class="card-text text-center">Prototyping</p>
-          </div>
-          <div class="card-footer text-muted">
-            <span class="badge text-success bg-light rounded-pill"
-              >2 Days Left</span
-            >
-          </div>
-        </div>
-      </div>
 
-      <div class="col-md-4 mb-4 p-2">
-        <div class="card shadow-sm rounded-4" style="background-color: #d5deff">
-          <div class="card-body">
-            <div class="d-flex justify-content-between">
-              <span class="icon">December 10, 2020</span>
-              <b class="bi bi-three-dots-vertical"></b>
-            </div>
-            <h5 class="card-title text-center">Web Designing</h5>
-            <p class="card-text text-center">Prototyping</p>
-          </div>
-          <div class="card-footer text-muted">
-            <span class="badge text-primary bg-light rounded-pill"
-              >2 Days Left</span
-            >
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+   
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -39,6 +39,9 @@ function divCreation() {
    
     let inputDiv = document.querySelector(".container-2");
     inputDiv.innerHTML=" "
+
+    let messageDiv = document.createElement("div");
+    messageDiv.classList.add("message"); 
    
    
     
@@ -51,7 +54,8 @@ function divCreation() {
 
 
     if (splitCount <= 0 || number<=0) {
-        alert("please enter valid number")
+       messageDiv.textContent="Please enter valid number!";
+       inputDiv.appendChild(messageDiv)
     }
     else {
         for (let i = 0; i < splitCount; i++) {

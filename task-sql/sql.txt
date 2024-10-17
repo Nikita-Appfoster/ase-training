@@ -1,14 +1,14 @@
 --INSERT INTO Customers
 --(customer_id, first_name, last_name, age, country)
 --VALUES
---("7", "Taylor", "Swift", "32", "USA");
+--(7, "Taylor", "Swift", "32", "USA");
 
 
 --INSERT INTO Customers
 --(customer_id, first_name, last_name, age, country)
 --VALUES
---("8", "Kylie" , "Jenner", "27", "America"),
---("9", "Kim", "Kardashian", "43", "America");
+--(8, "Kylie" , "Jenner", "27", "America"),
+--(9, "Kim", "Kardashian", "43", "America");
 
 
 --SELECT COUNT(customer_id), country

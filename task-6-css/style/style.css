@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.complt-resume{
+    display:flex;
+    border: 2px solid blue;
+    justify-content: space-between;
+    margin: auto;
+    
+
+   
+   /* padding: 10px; */
+    
+    
+    
+
+}
+
+a{
+    color:aliceblue;
+    
+}
+
+
+.left-side{
+    /* padding:100px; */
+    display: flex;
+    flex-direction: column;
+    gap:67px;
+   flex:1;
+    
+}
+
+.exp{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+   
+}
+.internship{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 20px;
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+}
+.skills{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+
+}
+.right-side{
+    display:flex;
+    flex-direction: column;
+    gap:42px;
+    background-color: #5A42C0;
+    
+  
+    
+    
+   
+}
+.email,.phone,.linkedin{
+    background-color: #5A42C0;
+}
+
+.lang{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap:10px;
+    padding:20px;
+
+}
+.profile,.intern-class,.project-icon,.skillsets{
+    color:#175A8E
+}
+.Frontend,.year{
+    color:blue;
+}
+.internshipsummary{
+    display:flex;
+    flex-direction: column;
+    
+
+}
+.flex-flex{
+    display: flex;
+    gap:350px;
+}
+.HTML, .css, .js{
+    display:flex;
+    gap:30px;
+}
+.prog{
+    margin-top: 7px;
+    height: 10px;
+    width:300px;
+    border-radius: 3px solid black;
+    background-color: blue;
+
+
+}
+.prog1{
+    margin-top: 10px;
+    margin-left:18px;
+    height: 10px;
+    width:300px;
+    border-radius: 3px solid black;
+    background-color: blue;
+
+}
+.further-prog{
+    margin-top: 6px;
+  
+    height: 10px;
+    width:300px;
+    border-radius: 3px solid black;
+    background-color:green;
+
+}
+
+.new-prog{
+    height:10px;
+    width:190px;
+    background-color: blue;
+    
+}
+.bar{
+    display:flex;
+    margin-right: 10px;
+}
+img{
+    border-radius: 50px;
+    margin-left: 30%;
+    padding:5px;
+   
+
+}
+.name{
+    background-color:#48359A;
+}
+.education,.lang{
+    background-color: #5A42C0;
+    
+}
+
+.subname, .dev{
+    margin-left: 50px;
+}
+.added{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+    padding: 20px;
+   
+    
+}
+
+.lang1{
+    align-items: start;
+}
+.lang{
+    align-items: center;
+}
+
+.name h2{
+    margin-left: 20px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email{
+    margin-right: 25px;
+}
+.phone{
+    margin-left: 14px;
+}
+.name h3{
+    margin-left : 50px;
+}
+.Frontend{
+    margin-left: 11px;
+}
+.name h5{
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
